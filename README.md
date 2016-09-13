@@ -19,10 +19,10 @@ cf push
    }
    ```  
 ###  before Send    
- <img src="images/wss-post.png">
+ <img src="images/wss-get.png">
  
 ### after Send
- <img src="images/wss-get.png">
+ <img src="images/wss-post.png">
 
 ### Log
  <img src="images/wss-logs.png">
