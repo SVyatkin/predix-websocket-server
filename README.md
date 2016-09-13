@@ -1,5 +1,5 @@
 
-# predix-webwebsocket-server
+# predix-websocket-server
 Websocket server to listen and broadcast data
 
    ```  
@@ -9,7 +9,7 @@ mvn clean package
 cf push
    ```  
 
-Use websocket client to push data to the websocket 
+## Use websocket client to push data to the websocket 
    ```  
    wss://wss-sv.run.aws-usw02-pr.ice.predix.io/livestream/111
    {
@@ -18,13 +18,13 @@ Use websocket client to push data to the websocket
       "dataPoints":[1,2,3,4,5]
    }
    ```  
-  #### before Send    
+###  before Send    
  <img src="images/wss-get.png">
  
- #### after Send
+### after Send
  <img src="images/wss-post.png">
 
-Log
+### Log
  <img src="images/wss-logs.png">
 
 
